@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraph in flex</title>
+    <style>
+        #container {
+            display: flex;
+            gap: 10px;
+        }
+
+
+        #container > p {
+            padding: 0.8rem;
+            flex-basis: auto;
+            flex-shrink: 1;
+            flex-grow: 1;
+        
+        }
+        #first {background-color: aqua;}
+        #second {background-color:powderblue ;}
+        #third {background-color: limegreen;}
+        #fourth {background-color: aquamarine;}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p id="first">Home</p>
+        <p id="second">About</p>
+        <p id="third">Contact Us</p>
+        <p id="fourth">The Best Programming School in the World</p>
+    </div>
+</body>
+</html>
